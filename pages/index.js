@@ -34,6 +34,15 @@ const Home = () => {
     <div className="root">
       <div className="container">
         <div className="header">
+          <div>
+            <Head>
+              <title>Fantasy ChefBot✨</title>
+              <meta
+                name="viewport"
+                content="initial-scale=1.0, width=device-width"
+              />
+            </Head>
+          </div>
           <div className="header-title">
             <h1>Fantasy ChefBot✨</h1>
           </div>
