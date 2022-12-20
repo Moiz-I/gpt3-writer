@@ -36,7 +36,7 @@ const Home = () => {
         <div className="header">
           <div>
             <Head>
-              <title>Fantasy ChefBot✨</title>
+              <title>Rude-Bot🔥</title>
               <meta
                 name="viewport"
                 content="initial-scale=1.0, width=device-width"
@@ -44,18 +44,15 @@ const Home = () => {
             </Head>
           </div>
           <div className="header-title">
-            <h1>Fantasy ChefBot✨</h1>
+            <h1>Rude-Bot🔥</h1>
           </div>
           <div className="header-subtitle">
-            <h2>
-              Give a few of the wildest ingredients you can think of, and our
-              ChefBot will cook it right up!
-            </h2>
+            <h2>Tell the bot a bit about yourself..</h2>
           </div>
         </div>
         <div className="prompt-container">
           <textarea
-            placeholder="e.g. Dragon's Scales, Toad Breath, Unicorn Hair"
+            placeholder="e.g. I am a computer science student and I like sleeping"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -97,16 +94,11 @@ const Home = () => {
           href="https://buildspace.so/builds/ai-writer"
           target="_blank"
           rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
+        ></a>
       </div>
       <div>
         <a href="https://twitter.com/Moiz_zzz" target="_blank" rel="noreferrer">
-          <p className="self-promo">Made with 🪄 by Moiz</p>
+          <p className="self-promo">Made with 🌶️ by Moiz</p>
         </a>
       </div>
     </div>

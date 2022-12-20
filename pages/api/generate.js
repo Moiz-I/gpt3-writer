@@ -6,7 +6,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = `give me a  name and description i could put on a menu for a fantasy dish that contain the ingredients: `;
+const basePromptPrefix = `comment on the statement with a very hilarious roast like top comedians, statement : `;
 const generateAction = async (req, res) => {
   // Run first prompt
   console.log(`API: ${basePromptPrefix}${req.body.userInput}`);
